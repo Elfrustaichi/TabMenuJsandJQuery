@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.tabs-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tabs-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tabs-header .tabs-button {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0px 2px;
+  background: black;
+  display: inline-block;
+  color: white;
+  border-radius: 3px 3px 0px 0px;
+  -webkit-box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.5019607843);
+          box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.5019607843);
+}
+
+.tabs-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+.tabs-content .content {
+  background: rgba(241, 240, 240, 0.9647058824);
+  -webkit-box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.5019607843);
+          box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.5019607843);
+  min-height: 200px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#already-selected {
+  background-color: white;
+  color: black;
+}
+
+#Vuqar-Bileceri {
+  display: none;
+}
+
+#Rəşad-Dağlı {
+  display: none;
+}

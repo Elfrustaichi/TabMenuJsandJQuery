@@ -1,0 +1,49 @@
+.tabs-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tabs-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .tabs-button {
+    cursor: pointer;
+    padding:10px 20px;
+    margin:0px 2px;
+    background:black;
+    display:inline-block;
+    color:white;
+    border-radius:3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+  }
+}
+
+.tabs-content {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  .content {
+    background: #f1f0f0f6;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height: 200px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px;
+  }
+}
+
+#already-selected{
+  background-color: white;
+  color: black;
+}
+#Vuqar-Bileceri{
+    display: none;
+}
+#Rəşad-Dağlı{
+    display: none;
+}
